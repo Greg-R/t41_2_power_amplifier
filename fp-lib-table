@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "TO-220_RF")(type "KiCad")(uri "${KIPRJMOD}/library/TO-220_RF.pretty")(options "")(descr ""))
+  (lib (name "Binocular_Core")(type "KiCad")(uri "${KIPRJMOD}/library/Binocular_Core.pretty")(options "")(descr ""))
+)

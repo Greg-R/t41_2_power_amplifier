@@ -7342,6 +7342,79 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:Q_NPN_BEC")
+		(at 54.61 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0744f6c5-91c1-4c68-9dff-c4718f9304bc")
+		(property "Reference" "Q7"
+			(at 59.69 62.2299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Q_NPN_BEC"
+			(at 59.69 64.7699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
+			(at 59.69 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 54.61 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "NPN transistor, base/emitter/collector"
+			(at 54.61 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "e94e2bab-af5d-4d37-8b5c-ed9e3f133696")
+		)
+		(pin "1"
+			(uuid "508b1f18-0e63-4a2d-a17e-4cde2af28d47")
+		)
+		(pin "2"
+			(uuid "f033d81b-f1d6-496a-84b2-c09cda98b609")
+		)
+		(instances
+			(project ""
+				(path "/2dfc3106-0fe9-4b2c-b32a-a54bf0a73e15"
+					(reference "Q7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Auto_Fuse_Holder:3587TR")
 		(at 41.91 144.78 0)
 		(unit 1)
@@ -7686,7 +7759,7 @@
 				)
 			)
 		)
-		(property "Value" "56"
+		(property "Value" "10"
 			(at 71.12 73.66 90)
 			(effects
 				(font
@@ -7896,7 +7969,7 @@
 				)
 			)
 		)
-		(property "Value" "56"
+		(property "Value" "150"
 			(at 54.61 73.66 90)
 			(effects
 				(font
@@ -8829,78 +8902,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Q_NPN_BCE")
-		(at 54.61 63.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3718c99b-1020-4e7a-8c8f-0bc0dd3f0571")
-		(property "Reference" "Q7"
-			(at 48.26 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Q_NPN_BCE"
-			(at 52.07 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
-			(at 59.69 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 54.61 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "NPN transistor, base/collector/emitter"
-			(at 54.61 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1a93a403-83fd-4ba0-b00f-c641bda579f9")
-		)
-		(pin "2"
-			(uuid "61658cda-51d8-4378-9bf0-c7abc30b8433")
-		)
-		(pin "3"
-			(uuid "1037554f-5996-4024-ba9a-f2f9a92acd2b")
-		)
-		(instances
-			(project "t41_2_power_amplifier"
-				(path "/2dfc3106-0fe9-4b2c-b32a-a54bf0a73e15"
-					(reference "Q7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 213.36 120.65 0)
 		(unit 1)
@@ -9320,7 +9321,7 @@
 				)
 			)
 		)
-		(property "Value" "56"
+		(property "Value" "1000"
 			(at 90.17 53.34 90)
 			(effects
 				(font
@@ -10404,7 +10405,7 @@
 				)
 			)
 		)
-		(property "Value" "56"
+		(property "Value" "1500"
 			(at 90.17 73.66 90)
 			(effects
 				(font
@@ -10606,7 +10607,7 @@
 				)
 			)
 		)
-		(property "Value" "56"
+		(property "Value" "1500"
 			(at 45.72 73.66 90)
 			(effects
 				(font
@@ -11156,78 +11157,6 @@
 			(project ""
 				(path "/2dfc3106-0fe9-4b2c-b32a-a54bf0a73e15"
 					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Q_NPN_BCE")
-		(at 71.12 63.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "960183fa-e4f1-46ea-9020-ba340dddb3a7")
-		(property "Reference" "Q8"
-			(at 67.31 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Q_NPN_BCE"
-			(at 60.96 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
-			(at 76.2 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 71.12 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "NPN transistor, base/collector/emitter"
-			(at 71.12 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c5b42f27-f02d-4895-a8a3-bb9ed3652c7a")
-		)
-		(pin "2"
-			(uuid "4c34bc80-1529-4398-83cc-c463250e09fb")
-		)
-		(pin "3"
-			(uuid "52b9da93-8297-4c60-996b-c29da89c3e62")
-		)
-		(instances
-			(project "t41_2_power_amplifier"
-				(path "/2dfc3106-0fe9-4b2c-b32a-a54bf0a73e15"
-					(reference "Q8")
 					(unit 1)
 				)
 			)
@@ -13052,7 +12981,7 @@
 				)
 			)
 		)
-		(property "Value" "56"
+		(property "Value" "1000"
 			(at 45.72 53.34 90)
 			(effects
 				(font
@@ -13119,7 +13048,7 @@
 				)
 			)
 		)
-		(property "Value" "56"
+		(property "Value" "10"
 			(at 115.57 73.66 90)
 			(effects
 				(font
@@ -13303,6 +13232,79 @@
 			(project "t41_2_power_amplifier"
 				(path "/2dfc3106-0fe9-4b2c-b32a-a54bf0a73e15"
 					(reference "C15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Q_NPN_BEC")
+		(at 71.12 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cefb0ea8-1293-4a03-bd29-638b9ae185a4")
+		(property "Reference" "Q8"
+			(at 76.2 62.2299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Q_NPN_BEC"
+			(at 76.2 64.7699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
+			(at 76.2 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 71.12 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "NPN transistor, base/emitter/collector"
+			(at 71.12 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "3afbdd80-65d6-46c9-8108-e6e81589ca3d")
+		)
+		(pin "1"
+			(uuid "ced8c9c4-3f5d-48b8-a5de-0dadd5963570")
+		)
+		(pin "2"
+			(uuid "7e3fb4dc-d037-4bde-98ce-d2c617f17db3")
+		)
+		(instances
+			(project "t41_2_power_amplifier"
+				(path "/2dfc3106-0fe9-4b2c-b32a-a54bf0a73e15"
+					(reference "Q8")
 					(unit 1)
 				)
 			)
@@ -14041,7 +14043,7 @@
 				)
 			)
 		)
-		(property "Value" "56"
+		(property "Value" "150"
 			(at 99.06 73.66 90)
 			(effects
 				(font

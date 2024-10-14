@@ -75,8 +75,19 @@
 			(type default)
 		)
 		(fill none)
-		(layer "B.CrtYd")
+		(layer "F.SilkS")
 		(uuid "311e8fbe-07e4-4af8-afb7-7c89a5f04b7f")
+	)
+	(fp_rect
+		(start -15 -15)
+		(end 15 15)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "e9e2906d-6e92-4db8-99c8-def17072f28d")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 -10.5 0)

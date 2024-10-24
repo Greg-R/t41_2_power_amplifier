@@ -4412,6 +4412,12 @@
 		(uuid "0f539307-7579-4d87-97f9-743afb903af5")
 	)
 	(junction
+		(at 73.66 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0febb5a9-1cd3-41e1-b667-990b1cbf2f71")
+	)
+	(junction
 		(at 175.26 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4524,6 +4530,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "99f82b41-deeb-4aab-94d9-63872022e439")
+	)
+	(junction
+		(at 81.28 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9f371bd2-a0b3-4962-9650-a57940d3958f")
 	)
 	(junction
 		(at 91.44 130.81)
@@ -4642,6 +4654,16 @@
 			(type default)
 		)
 		(uuid "00c96494-c804-420f-9c07-d701d8c1cf6f")
+	)
+	(wire
+		(pts
+			(xy 81.28 39.37) (xy 81.28 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02ed1609-d5e8-4d27-b683-8b788eb2a1b2")
 	)
 	(wire
 		(pts
@@ -5365,6 +5387,16 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 46.99) (xy 81.28 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50277b40-2d48-4483-8d24-c37a029f6302")
+	)
+	(wire
+		(pts
 			(xy 101.6 49.53) (xy 113.03 49.53)
 		)
 		(stroke
@@ -5532,6 +5564,16 @@
 			(type default)
 		)
 		(uuid "71ffd628-1c73-4e9f-abf2-add47ca6e4cc")
+	)
+	(wire
+		(pts
+			(xy 73.66 39.37) (xy 81.28 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7588031d-529f-4268-9ade-fc8b470038fe")
 	)
 	(wire
 		(pts
@@ -7969,7 +8011,7 @@
 				)
 			)
 		)
-		(property "Value" "150"
+		(property "Value" "100"
 			(at 54.61 73.66 90)
 			(effects
 				(font
@@ -9921,7 +9963,7 @@
 				)
 			)
 		)
-		(property "Value" "56"
+		(property "Value" "20"
 			(at 35.56 60.96 90)
 			(effects
 				(font
@@ -10405,7 +10447,7 @@
 				)
 			)
 		)
-		(property "Value" "1500"
+		(property "Value" "270"
 			(at 90.17 73.66 90)
 			(effects
 				(font
@@ -10540,7 +10582,7 @@
 				)
 			)
 		)
-		(property "Value" "56"
+		(property "Value" "270"
 			(at 27.94 69.85 90)
 			(effects
 				(font
@@ -10607,7 +10649,7 @@
 				)
 			)
 		)
-		(property "Value" "1500"
+		(property "Value" "270"
 			(at 45.72 73.66 90)
 			(effects
 				(font
@@ -12981,7 +13023,7 @@
 				)
 			)
 		)
-		(property "Value" "1000"
+		(property "Value" "1500"
 			(at 45.72 53.34 90)
 			(effects
 				(font
@@ -13048,7 +13090,7 @@
 				)
 			)
 		)
-		(property "Value" "10"
+		(property "Value" "5"
 			(at 115.57 73.66 90)
 			(effects
 				(font
@@ -13093,6 +13135,76 @@
 			(project "t41_2_power_amplifier"
 				(path "/2dfc3106-0fe9-4b2c-b32a-a54bf0a73e15"
 					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L_Small")
+		(at 81.28 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ce287267-b5fd-4b44-afa2-f56ca406c71e")
+		(property "Reference" "L3"
+			(at 82.55 43.1799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uH"
+			(at 82.55 45.7199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_1210_3225Metric"
+			(at 81.28 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 81.28 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Inductor, small symbol"
+			(at 81.28 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "70b54915-dbfb-4e75-88f3-a4b9b10fc4d2")
+		)
+		(pin "1"
+			(uuid "8cc339d5-39ed-4890-8a74-ad095a2b4b44")
+		)
+		(instances
+			(project "t41_2_power_amplifier"
+				(path "/2dfc3106-0fe9-4b2c-b32a-a54bf0a73e15"
+					(reference "L3")
 					(unit 1)
 				)
 			)
@@ -13401,7 +13513,7 @@
 				)
 			)
 		)
-		(property "Value" "56"
+		(property "Value" "270"
 			(at 38.1 69.85 90)
 			(effects
 				(font
@@ -14043,7 +14155,7 @@
 				)
 			)
 		)
-		(property "Value" "150"
+		(property "Value" "100"
 			(at 99.06 73.66 90)
 			(effects
 				(font

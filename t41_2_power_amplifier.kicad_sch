@@ -6,8 +6,8 @@
 	(paper "USLetter")
 	(title_block
 		(title "T41-2 RF Power Amplifier")
-		(date "2024-12-01")
-		(rev "1.1")
+		(date "2024-12-22")
+		(rev "1.2")
 	)
 	(lib_symbols
 		(symbol "28F0121-0SR-10:28F0121-0SR-10"
@@ -844,6 +844,154 @@
 				(pin passive line
 					(at 0 -2.54 90)
 					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:FerriteBead_Small"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "FB"
+				(at 1.905 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "FerriteBead_Small"
+				(at 1.905 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Ferrite bead, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "L ferrite bead inductor filter"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Inductor_* L_* *Ferrite*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "FerriteBead_Small_0_1"
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 -0.7874)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.889) (xy 0 1.2954)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.8288 0.2794) (xy -1.1176 1.4986) (xy 1.8288 -0.2032) (xy 1.1176 -1.4224) (xy -1.8288 0.2794)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "FerriteBead_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 1.27)
 					(name "~"
 						(effects
 							(font
@@ -3411,16 +3559,16 @@
 		(uuid "35627eba-7cfc-46a4-9440-3a7296f19484")
 	)
 	(junction
-		(at 81.28 133.35)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5d09c92b-6039-452c-ab9b-b9e46b65643f")
-	)
-	(junction
 		(at 173.99 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5e6dafe8-fcd2-4c68-8a9d-215ea15aa3d3")
+	)
+	(junction
+		(at 81.28 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5fb7ad1d-3420-4b4a-bd97-e356271f5beb")
 	)
 	(junction
 		(at 132.08 64.77)
@@ -3439,6 +3587,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "78b71e8f-2dd9-4db0-9853-b254cabe68e0")
+	)
+	(junction
+		(at 95.25 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7db0437c-e06a-4fcf-980d-210aea54edea")
 	)
 	(junction
 		(at 107.95 166.37)
@@ -3570,7 +3724,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 133.35) (xy 111.76 133.35)
+			(xy 81.28 133.35) (xy 95.25 133.35)
 		)
 		(stroke
 			(width 0)
@@ -3750,16 +3904,6 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 133.35) (xy 62.23 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "249e8df3-bd54-46ba-b22f-84ef0a30fd22")
-	)
-	(wire
-		(pts
 			(xy 240.03 143.51) (xy 240.03 146.05)
 		)
 		(stroke
@@ -3840,6 +3984,16 @@
 	)
 	(wire
 		(pts
+			(xy 69.85 133.35) (xy 81.28 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "315fbadd-3fac-472c-9528-723b83a46a9e")
+	)
+	(wire
+		(pts
 			(xy 173.99 73.66) (xy 182.88 73.66)
 		)
 		(stroke
@@ -3847,16 +4001,6 @@
 			(type default)
 		)
 		(uuid "33525ef2-88c2-4b10-b163-7b6fcd7f5bc7")
-	)
-	(wire
-		(pts
-			(xy 123.19 143.51) (xy 123.19 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3462ed28-4d36-48ca-8dc1-4b4aaca88e46")
 	)
 	(wire
 		(pts
@@ -3977,6 +4121,16 @@
 			(type default)
 		)
 		(uuid "49978c12-e6f2-4dc9-88e9-26135fdaa110")
+	)
+	(wire
+		(pts
+			(xy 95.25 140.97) (xy 95.25 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49e8e66c-b1f7-438a-a9c9-cb5d361cf231")
 	)
 	(wire
 		(pts
@@ -4110,6 +4264,16 @@
 	)
 	(wire
 		(pts
+			(xy 95.25 133.35) (xy 95.25 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74f3f61f-68c7-42ed-89ec-8779253458f6")
+	)
+	(wire
+		(pts
 			(xy 81.28 133.35) (xy 81.28 135.89)
 		)
 		(stroke
@@ -4190,16 +4354,6 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 133.35) (xy 81.28 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8f0d1bd3-0760-4bfa-8a98-213c35bc174a")
-	)
-	(wire
-		(pts
 			(xy 101.6 130.81) (xy 111.76 130.81)
 		)
 		(stroke
@@ -4217,6 +4371,16 @@
 			(type default)
 		)
 		(uuid "9152af7d-ba80-4886-9525-ae66d6f90fa4")
+	)
+	(wire
+		(pts
+			(xy 95.25 133.35) (xy 111.76 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92dcef1e-1c2c-447b-ae92-9c3539223bbf")
 	)
 	(wire
 		(pts
@@ -4600,6 +4764,16 @@
 	)
 	(wire
 		(pts
+			(xy 52.07 133.35) (xy 64.77 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd53ce15-9e2b-4a02-98f5-a599ecfcc542")
+	)
+	(wire
+		(pts
 			(xy 149.86 83.82) (xy 149.86 87.63)
 		)
 		(stroke
@@ -4620,9 +4794,9 @@
 		)
 		(uuid "08abb576-7159-40b2-8d67-91f55d76d5ce")
 	)
-	(text "BFU590G SOT-223"
+	(text "RD16HHF1 TO-220"
 		(exclude_from_sim no)
-		(at 149.86 50.8 0)
+		(at 165.1 58.42 0)
 		(effects
 			(font
 				(size 2 2)
@@ -4658,7 +4832,7 @@
 	)
 	(text "T41-2 RF POWER AMPLIFIER"
 		(exclude_from_sim no)
-		(at 129.54 19.05 0)
+		(at 128.27 29.21 0)
 		(effects
 			(font
 				(size 3 3)
@@ -4680,7 +4854,17 @@
 		)
 		(uuid "9d35ce5e-fdff-48a6-bf6b-d6a3efee5e5b")
 	)
-	(text "BIAS REGULATOR"
+	(text "C3 is not placed (Do Not Place) unless additional\nadjustment of the frequency response is required."
+		(exclude_from_sim no)
+		(at 200.66 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a1af8dab-20e1-435e-b21e-9e2f4a5dc291")
+	)
+	(text "8 VOLT BIAS REGULATOR"
 		(exclude_from_sim no)
 		(at 121.92 120.65 0)
 		(effects
@@ -5842,7 +6026,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "2e490df4-5ea2-467f-a464-e59a0d483e07")
 		(property "Reference" "#PWR011"
 			(at 121.92 148.59 0)
@@ -5854,7 +6037,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 121.92 147.32 0)
+			(at 121.92 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5917,7 +6100,7 @@
 				)
 			)
 		)
-		(property "Value" "56"
+		(property "Value" "51"
 			(at 121.92 97.79 90)
 			(effects
 				(font
@@ -6247,10 +6430,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "3e858a14-7d48-4db8-af95-e0b6233c8a7a")
 		(property "Reference" "C11"
-			(at 83.82 137.1535 0)
+			(at 74.93 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6259,7 +6441,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 83.82 139.6935 0)
+			(at 73.66 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6591,7 +6773,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100pF"
+		(property "Value" "DNP"
 			(at 185.42 80.0162 0)
 			(effects
 				(font
@@ -6769,6 +6951,73 @@
 			(project "t41_2_power_amplifier"
 				(path "/2dfc3106-0fe9-4b2c-b32a-a54bf0a73e15"
 					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 95.25 138.43 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5c67f234-4340-46b2-92c4-6b996ad28c74")
+		(property "Reference" "R3"
+			(at 92.075 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "47k"
+			(at 92.075 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 95.25 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 95.25 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 95.25 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8e2932f3-d35b-4d50-ae56-36303db5548d")
+		)
+		(pin "1"
+			(uuid "ccb71222-22cb-44c2-81b8-1c364314351f")
+		)
+		(instances
+			(project "t41_2_power_amplifier"
+				(path "/2dfc3106-0fe9-4b2c-b32a-a54bf0a73e15"
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -8398,6 +8647,71 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 95.25 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bc597cec-2fab-4e33-a01f-84112e5391f7")
+		(property "Reference" "#PWR021"
+			(at 95.25 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 95.25 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 95.25 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 95.25 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ed35d36b-ebf2-43e0-bf7c-d2abfa9ddae2")
+		)
+		(instances
+			(project "t41_2_power_amplifier"
+				(path "/2dfc3106-0fe9-4b2c-b32a-a54bf0a73e15"
+					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 142.24 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8551,7 +8865,7 @@
 				)
 			)
 		)
-		(property "Value" "56"
+		(property "Value" "51"
 			(at 129.54 59.69 90)
 			(effects
 				(font
@@ -8779,7 +9093,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100pF"
+		(property "Value" "120pF"
 			(at 175.26 80.01 0)
 			(effects
 				(font
@@ -9239,114 +9553,6 @@
 		)
 	)
 	(symbol
-		(lib_id "28F0121-0SR-10:28F0121-0SR-10")
-		(at 69.85 133.35 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d9c08d43-d372-4488-be94-a7b1946be103")
-		(property "Reference" "E4"
-			(at 69.85 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "XXX"
-			(at 71.12 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Inductor_SMD:L_1206_3216Metric"
-			(at 69.85 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 69.85 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 69.85 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "J"
-			(at 69.85 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 69.85 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "3.05 mm"
-			(at 69.85 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Laird"
-			(at 69.85 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "0dcfcb9a-b11a-41fc-be93-179ebf1f60e5")
-		)
-		(pin "1"
-			(uuid "739d15af-b93c-40c2-ba87-fcf4a9d5d068")
-		)
-		(instances
-			(project "t41_2_power_amplifier"
-				(path "/2dfc3106-0fe9-4b2c-b32a-a54bf0a73e15"
-					(reference "E4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 134.62 92.71 90)
 		(unit 1)
@@ -9742,7 +9948,7 @@
 				)
 			)
 		)
-		(property "Value" "56"
+		(property "Value" "51"
 			(at 129.54 97.79 90)
 			(effects
 				(font
@@ -9787,6 +9993,74 @@
 			(project "t41_2_power_amplifier"
 				(path "/2dfc3106-0fe9-4b2c-b32a-a54bf0a73e15"
 					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:FerriteBead_Small")
+		(at 67.31 133.35 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ef624e31-3ec6-46ee-8edd-0400309d17e0")
+		(property "Reference" "E4"
+			(at 67.2719 126.365 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "FerriteBead_Small"
+			(at 67.2719 128.905 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_1206_3216Metric"
+			(at 67.31 135.128 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 67.31 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ferrite bead, small symbol"
+			(at 67.31 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ec66c3d6-d083-4e30-96e5-2900a1aa77c6")
+		)
+		(pin "1"
+			(uuid "7f1796f4-e9fb-4ee8-8b89-46a157396f08")
+		)
+		(instances
+			(project ""
+				(path "/2dfc3106-0fe9-4b2c-b32a-a54bf0a73e15"
+					(reference "E4")
 					(unit 1)
 				)
 			)
@@ -9874,7 +10148,7 @@
 				)
 			)
 		)
-		(property "Value" "56"
+		(property "Value" "51"
 			(at 121.92 59.69 90)
 			(effects
 				(font

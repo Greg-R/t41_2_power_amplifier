@@ -191,7 +191,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Auto_Fuse_Holder:3587TR"
+		(symbol "28F0121-0SR-10:3587TR"
 			(pin_names
 				(offset 1.016)
 			)
@@ -382,31 +382,51 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:Screw_Terminal_01x02"
+		(symbol "28F0121-0SR-10:5-1814832-1"
 			(pin_names
 				(offset 1.016)
-				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at 0 2.54 0)
+				(at -2.54 1.27 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.524 1.524)
 					)
 				)
 			)
-			(property "Value" "Screw_Terminal_01x02"
-				(at 0 -5.08 0)
+			(property "Value" "5-1814832-1"
+				(at 1.27 -2.54 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.524 1.524)
 					)
+					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "digikey-footprints:RF_SMA_Vertical_5-1814832-1"
+				(at 5.08 5.08 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1814832&DocType=Customer+Drawing&DocLang=English"
+				(at 5.08 7.62 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "CONN SMA JACK STR 50 OHM PCB"
 				(at 0 0 0)
 				(effects
 					(font
@@ -415,7 +435,97 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Digi-Key_PN" "A97594-ND"
+				(at 5.08 10.16 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "MPN" "5-1814832-1"
+				(at 5.08 12.7 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Category" "Connectors, Interconnects"
+				(at 5.08 15.24 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Family" "Coaxial Connectors (RF)"
+				(at 5.08 17.78 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "DK_Datasheet_Link" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1814832&DocType=Customer+Drawing&DocLang=English"
+				(at 5.08 20.32 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "DK_Detail_Page" "/product-detail/en/te-connectivity-amp-connectors/5-1814832-1/A97594-ND/1755982"
+				(at 5.08 22.86 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "CONN SMA JACK STR 50 OHM PCB"
+				(at 5.08 25.4 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "TE Connectivity AMP Connectors"
+				(at 5.08 27.94 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Status" "Active"
+				(at 5.08 30.48 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "A97594-ND ZDC, Greenpar"
 				(at 0 0 0)
 				(effects
 					(font
@@ -424,119 +534,48 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "screw terminal"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TerminalBlock*:*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Screw_Terminal_01x02_1_1"
-				(rectangle
-					(start -1.27 1.27)
-					(end 1.27 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.5334 0.3302) (xy 0.3302 -0.508)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.5334 -2.2098) (xy 0.3302 -3.048)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.3556 0.508) (xy 0.508 -0.3302)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.3556 -2.032) (xy 0.508 -2.8702)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
+			(symbol "5-1814832-1_0_1"
 				(circle
 					(center 0 0)
 					(radius 0.635)
 					(stroke
-						(width 0.1524)
+						(width 0)
 						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
-				(circle
-					(center 0 -2.54)
-					(radius 0.635)
+				(arc
+					(start -1.27 0)
+					(mid -0.2519 1.325)
+					(end 1.27 0.635)
 					(stroke
-						(width 0.1524)
+						(width 0)
 						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
+				(arc
+					(start 1.27 -0.635)
+					(mid -0.2487 -1.3123)
+					(end -1.27 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "5-1814832-1_1_1"
 				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_1"
+					(at 0 -5.08 90)
+					(length 3.683)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -552,9 +591,9 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_2"
+					(at 5.08 0 180)
+					(length 4.445)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -572,7 +611,232 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:C_Polarized_Small_US"
+		(symbol "28F0121-0SR-10:B2B-XH-A_LF__SN_"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at -2.54 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Value" "B2B-XH-A_LF__SN_"
+				(at 1.27 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "digikey-footprints:PinHeader_1x2_P2.5mm_Drill1.1mm"
+				(at 5.08 5.08 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.jst-mfg.com/product/pdf/eng/eXH.pdf"
+				(at 5.08 7.62 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "CONN HEADER VERT 2POS 2.5MM"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Digi-Key_PN" "455-2247-ND"
+				(at 5.08 10.16 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "MPN" "B2B-XH-A(LF)(SN)"
+				(at 5.08 12.7 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Category" "Connectors, Interconnects"
+				(at 5.08 15.24 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Family" "Rectangular Connectors - Headers, Male Pins"
+				(at 5.08 17.78 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "DK_Datasheet_Link" "http://www.jst-mfg.com/product/pdf/eng/eXH.pdf"
+				(at 5.08 20.32 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "DK_Detail_Page" "/product-detail/en/jst-sales-america-inc/B2B-XH-A(LF)(SN)/455-2247-ND/1651045"
+				(at 5.08 22.86 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "CONN HEADER VERT 2POS 2.5MM"
+				(at 5.08 25.4 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "JST Sales America Inc."
+				(at 5.08 27.94 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Status" "Active"
+				(at 5.08 30.48 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "455-2247-ND XH"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "B2B-XH-A_LF__SN__1_1"
+				(rectangle
+					(start -1.27 0)
+					(end 3.81 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -0.254 -1.143)
+					(end 0.254 -1.651)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 2.286 -1.143)
+					(end 2.794 -1.651)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 2.54 270)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "28F0121-0SR-10:C_Polarized_Small_US"
 			(pin_numbers
 				(hide yes)
 			)
@@ -736,7 +1000,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:C_Small"
+		(symbol "28F0121-0SR-10:C_Small"
 			(pin_numbers
 				(hide yes)
 			)
@@ -876,7 +1140,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:FerriteBead_Small"
+		(symbol "28F0121-0SR-10:FerriteBead_Small"
 			(pin_numbers
 				(hide yes)
 			)
@@ -1027,7 +1291,595 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:Q_NMOS_GSD"
+		(symbol "28F0121-0SR-10:GND"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "28F0121-0SR-10:InductorTapped"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "L"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "InductorTapped_0_1"
+				(arc
+					(start -1.27 3.81)
+					(mid -0.898 4.708)
+					(end 0 5.08)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 2.54)
+					(mid -0.898 2.912)
+					(end -1.27 3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.27 1.27)
+					(mid -0.898 2.168)
+					(end 0 2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0)
+					(mid -0.898 0.372)
+					(end -1.27 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.27 -1.27)
+					(mid -0.898 -0.372)
+					(end 0 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -2.54)
+					(mid -0.898 -2.168)
+					(end -1.27 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.27 -3.81)
+					(mid -0.898 -2.912)
+					(end 0 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -5.08)
+					(mid -0.898 -4.708)
+					(end -1.27 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "InductorTapped_1_1"
+				(pin input line
+					(at 2.54 5.08 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 2.54 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 2.54 -5.08 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "28F0121-0SR-10:MCP1802x-xx02xOT"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -6.35 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "MCP1802x-xx02xOT"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+				(at -6.35 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/22053C.pdf"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "150mA, Tiny CMOS LDO With Shutdown, Fixed Voltage, SOT-23-5"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LDO Linear Voltage Regulator"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MCP1802x-xx02xOT_0_1"
+				(rectangle
+					(start -7.62 5.08)
+					(end 7.62 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "MCP1802x-xx02xOT_1_1"
+				(pin power_in line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 0 0)
+					(length 2.54)
+					(name "~{SHDN}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 7.62 0 180)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "VOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "28F0121-0SR-10:MountingHole_Pad"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "28F0121-0SR-10:Q_NMOS_GSD"
 			(pin_names
 				(offset 0)
 				(hide yes)
@@ -1314,7 +2166,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:R_Potentiometer_US"
+		(symbol "28F0121-0SR-10:R_Potentiometer_US"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -1527,7 +2379,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:R_Small_US"
+		(symbol "28F0121-0SR-10:R_Small_US"
 			(pin_numbers
 				(hide yes)
 			)
@@ -1665,7 +2517,197 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:Transformer_1P_1S"
+		(symbol "28F0121-0SR-10:Screw_Terminal_01x02"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Screw_Terminal_01x02"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "screw terminal"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TerminalBlock*:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Screw_Terminal_01x02_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 0.3302) (xy 0.3302 -0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 -2.2098) (xy 0.3302 -3.048)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 0.508) (xy 0.508 -0.3302)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 -2.032) (xy 0.508 -2.8702)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -2.54)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "28F0121-0SR-10:Transformer_1P_1S"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -2019,7 +3061,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:Transformer_1P_SS"
+		(symbol "28F0121-0SR-10:Transformer_1P_SS"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -2391,7 +3433,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Diode:Z3SMCxxx"
+		(symbol "28F0121-0SR-10:Z3SMCxxx"
 			(pin_numbers
 				(hide yes)
 			)
@@ -2540,1052 +3582,10 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "InductorTapped:InductorTapped"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "L"
-				(at 0 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "InductorTapped_0_1"
-				(arc
-					(start -1.27 3.81)
-					(mid -0.898 4.708)
-					(end 0 5.08)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 2.54)
-					(mid -0.898 2.912)
-					(end -1.27 3.81)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -1.27 1.27)
-					(mid -0.898 2.168)
-					(end 0 2.54)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 0)
-					(mid -0.898 0.372)
-					(end -1.27 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -1.27 -1.27)
-					(mid -0.898 -0.372)
-					(end 0 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -2.54)
-					(mid -0.898 -2.168)
-					(end -1.27 -1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -1.27 -3.81)
-					(mid -0.898 -2.912)
-					(end 0 -2.54)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -5.08)
-					(mid -0.898 -4.708)
-					(end -1.27 -3.81)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "InductorTapped_1_1"
-				(pin input line
-					(at 2.54 5.08 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 2.54 0 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 2.54 -5.08 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Mechanical:MountingHole_Pad"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim yes)
-			(in_bom no)
-			(on_board yes)
-			(property "Reference" "H"
-				(at 0 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "MountingHole_Pad"
-				(at 0 4.445 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Mounting Hole with connection"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "mounting hole"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "MountingHole*Pad*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "MountingHole_Pad_0_1"
-				(circle
-					(center 0 1.27)
-					(radius 1.27)
-					(stroke
-						(width 1.27)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "MountingHole_Pad_1_1"
-				(pin input line
-					(at 0 -2.54 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Regulator_Linear:MCP1802x-xx02xOT"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -6.35 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "MCP1802x-xx02xOT"
-				(at 0 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
-				(at -6.35 8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/22053C.pdf"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "150mA, Tiny CMOS LDO With Shutdown, Fixed Voltage, SOT-23-5"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "LDO Linear Voltage Regulator"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOT?23*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "MCP1802x-xx02xOT_0_1"
-				(rectangle
-					(start -7.62 5.08)
-					(end 7.62 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "MCP1802x-xx02xOT_1_1"
-				(pin power_in line
-					(at -10.16 2.54 0)
-					(length 2.54)
-					(name "VIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -10.16 0 0)
-					(length 2.54)
-					(name "~{SHDN}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 7.62 0 180)
-					(length 2.54)
-					(hide yes)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 10.16 2.54 180)
-					(length 2.54)
-					(name "VOUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "dk_Coaxial-Connectors-RF:5-1814832-1"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at -2.54 1.27 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "5-1814832-1"
-				(at 1.27 -2.54 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "digikey-footprints:RF_SMA_Vertical_5-1814832-1"
-				(at 5.08 5.08 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1814832&DocType=Customer+Drawing&DocLang=English"
-				(at 5.08 7.62 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "CONN SMA JACK STR 50 OHM PCB"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Digi-Key_PN" "A97594-ND"
-				(at 5.08 10.16 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "MPN" "5-1814832-1"
-				(at 5.08 12.7 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Category" "Connectors, Interconnects"
-				(at 5.08 15.24 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Family" "Coaxial Connectors (RF)"
-				(at 5.08 17.78 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "DK_Datasheet_Link" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1814832&DocType=Customer+Drawing&DocLang=English"
-				(at 5.08 20.32 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "DK_Detail_Page" "/product-detail/en/te-connectivity-amp-connectors/5-1814832-1/A97594-ND/1755982"
-				(at 5.08 22.86 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description_1" "CONN SMA JACK STR 50 OHM PCB"
-				(at 5.08 25.4 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "TE Connectivity AMP Connectors"
-				(at 5.08 27.94 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Status" "Active"
-				(at 5.08 30.48 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "A97594-ND ZDC, Greenpar"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "5-1814832-1_0_1"
-				(circle
-					(center 0 0)
-					(radius 0.635)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -1.27 0)
-					(mid -0.2519 1.325)
-					(end 1.27 0.635)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 1.27 -0.635)
-					(mid -0.2487 -1.3123)
-					(end -1.27 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "5-1814832-1_1_1"
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 3.683)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 4.445)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "dk_Rectangular-Connectors-Headers-Male-Pins:B2B-XH-A_LF__SN_"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at -2.54 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(property "Value" "B2B-XH-A_LF__SN_"
-				(at 1.27 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "digikey-footprints:PinHeader_1x2_P2.5mm_Drill1.1mm"
-				(at 5.08 5.08 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.jst-mfg.com/product/pdf/eng/eXH.pdf"
-				(at 5.08 7.62 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "CONN HEADER VERT 2POS 2.5MM"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Digi-Key_PN" "455-2247-ND"
-				(at 5.08 10.16 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "MPN" "B2B-XH-A(LF)(SN)"
-				(at 5.08 12.7 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Category" "Connectors, Interconnects"
-				(at 5.08 15.24 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Family" "Rectangular Connectors - Headers, Male Pins"
-				(at 5.08 17.78 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "DK_Datasheet_Link" "http://www.jst-mfg.com/product/pdf/eng/eXH.pdf"
-				(at 5.08 20.32 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "DK_Detail_Page" "/product-detail/en/jst-sales-america-inc/B2B-XH-A(LF)(SN)/455-2247-ND/1651045"
-				(at 5.08 22.86 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description_1" "CONN HEADER VERT 2POS 2.5MM"
-				(at 5.08 25.4 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "JST Sales America Inc."
-				(at 5.08 27.94 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Status" "Active"
-				(at 5.08 30.48 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "455-2247-ND XH"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "B2B-XH-A_LF__SN__1_1"
-				(rectangle
-					(start -1.27 0)
-					(end 3.81 -2.54)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start -0.254 -1.143)
-					(end 0.254 -1.651)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 2.286 -1.143)
-					(end 2.794 -1.651)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(pin passive line
-					(at 0 2.54 270)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 2.54 270)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "power:GND"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "GND"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GND_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 	)
 	(text "OUTPUT"
 		(exclude_from_sim no)
-		(at 212.09 63.5 0)
+		(at 236.855 66.04 0)
 		(effects
 			(font
 				(size 2 2)
@@ -3597,7 +3597,7 @@
 	)
 	(text "RD16HHF1 TO-220"
 		(exclude_from_sim no)
-		(at 165.1 58.42 0)
+		(at 163.195 43.815 0)
 		(effects
 			(font
 				(size 2 2)
@@ -3657,7 +3657,7 @@
 	)
 	(text "C3 is not placed (Do Not Place) unless additional\nadjustment of the frequency response is required."
 		(exclude_from_sim no)
-		(at 200.66 95.25 0)
+		(at 212.725 34.925 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3684,6 +3684,12 @@
 		(uuid "02c28357-16ce-4190-8aec-7b23d5089dfb")
 	)
 	(junction
+		(at 185.42 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0a5029d9-3a99-4bf5-9d6d-728641d6c097")
+	)
+	(junction
 		(at 124.46 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3708,10 +3714,16 @@
 		(uuid "35627eba-7cfc-46a4-9440-3a7296f19484")
 	)
 	(junction
-		(at 173.99 73.66)
+		(at 165.1 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5e6dafe8-fcd2-4c68-8a9d-215ea15aa3d3")
+		(uuid "416e1478-8fc7-489b-a47a-4307a97959c4")
+	)
+	(junction
+		(at 217.805 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4538b738-57e1-4b14-85de-e27f1958309c")
 	)
 	(junction
 		(at 81.28 133.35)
@@ -3738,10 +3750,22 @@
 		(uuid "78b71e8f-2dd9-4db0-9853-b254cabe68e0")
 	)
 	(junction
+		(at 146.05 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7b6b565f-c40f-4fe4-9d78-3f2baa2461cb")
+	)
+	(junction
 		(at 95.25 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7db0437c-e06a-4fcf-980d-210aea54edea")
+	)
+	(junction
+		(at 194.31 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "860bcf10-3c12-42f2-bdc3-166226bf45ce")
 	)
 	(junction
 		(at 107.95 166.37)
@@ -3756,22 +3780,10 @@
 		(uuid "95f6080e-f646-465e-a745-d17adcdeab11")
 	)
 	(junction
-		(at 182.88 73.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "99d59eed-7ad7-49a9-870f-9d3cc92c10f9")
-	)
-	(junction
 		(at 132.08 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9c3e36fe-4a7c-4a0d-b978-c307c1f62995")
-	)
-	(junction
-		(at 182.88 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a647e7cb-e3a8-4f69-bf01-50071564c988")
 	)
 	(junction
 		(at 146.05 83.82)
@@ -3780,16 +3792,16 @@
 		(uuid "b38ed4d4-46e3-4d9d-8fee-1a5bedb6c3de")
 	)
 	(junction
-		(at 173.99 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b50d5ebd-b5e6-4192-8330-0ff039757d1c")
-	)
-	(junction
 		(at 59.69 166.37)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c4ff28e8-1651-4c56-be61-74889cf08e13")
+	)
+	(junction
+		(at 175.26 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c7e774f9-94a4-42c1-89d3-9db95f8ac515")
 	)
 	(junction
 		(at 128.27 55.88)
@@ -3814,12 +3826,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fc49dcfc-7b16-445d-86d6-bb326c3c54a2")
-	)
-	(junction
-		(at 146.05 73.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ff9bafd6-9a69-4762-b244-9b61683c3de3")
 	)
 	(wire
 		(pts
@@ -3883,7 +3889,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 87.63) (xy 173.99 87.63)
+			(xy 149.86 87.63) (xy 165.1 87.63)
 		)
 		(stroke
 			(width 0)
@@ -3903,6 +3909,16 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 87.63) (xy 165.1 95.885)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0997ee6c-4321-4f59-83cc-89e19786a826")
+	)
+	(wire
+		(pts
 			(xy 132.08 55.88) (xy 132.08 57.15)
 		)
 		(stroke
@@ -3913,13 +3929,13 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 83.82) (xy 182.88 83.82)
+			(xy 214.63 85.725) (xy 217.805 85.725)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0b806041-f40b-41e0-897d-fa139657fb4a")
+		(uuid "0b68f263-9625-4ff1-bd04-1b5c2f847a1a")
 	)
 	(wire
 		(pts
@@ -4023,7 +4039,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 78.74) (xy 210.82 80.01)
+			(xy 235.585 81.28) (xy 235.585 82.55)
 		)
 		(stroke
 			(width 0)
@@ -4080,6 +4096,16 @@
 			(type default)
 		)
 		(uuid "28df6f89-782d-408b-b2d1-e097ce892f40")
+	)
+	(wire
+		(pts
+			(xy 217.805 76.2) (xy 217.805 85.725)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a865f21-d2d1-4cfd-8719-ae806e3aa0ce")
 	)
 	(wire
 		(pts
@@ -4143,16 +4169,6 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 73.66) (xy 182.88 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "33525ef2-88c2-4b10-b163-7b6fcd7f5bc7")
-	)
-	(wire
-		(pts
 			(xy 90.17 166.37) (xy 91.44 166.37)
 		)
 		(stroke
@@ -4173,13 +4189,13 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 73.66) (xy 173.99 76.2)
+			(xy 165.1 95.885) (xy 194.31 95.885)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3bf61ac4-622d-4103-a789-016b806ffccd")
+		(uuid "3b5b1da3-0324-4017-bfe8-2aeb5cbce70f")
 	)
 	(wire
 		(pts
@@ -4250,6 +4266,16 @@
 			(type default)
 		)
 		(uuid "471776c4-e9d8-40ae-bb6c-9fb530b32ead")
+	)
+	(wire
+		(pts
+			(xy 175.26 78.74) (xy 185.42 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47869f4a-02b5-439d-ac2b-20e0590db5ed")
 	)
 	(wire
 		(pts
@@ -4333,6 +4359,16 @@
 	)
 	(wire
 		(pts
+			(xy 217.805 62.865) (xy 217.805 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "588beac7-34ac-4e22-b944-e20e9518209e")
+	)
+	(wire
+		(pts
 			(xy 134.62 130.81) (xy 134.62 133.35)
 		)
 		(stroke
@@ -4390,16 +4426,6 @@
 			(type default)
 		)
 		(uuid "63b3551f-8dca-4371-8c33-3dc53a7bae3b")
-	)
-	(wire
-		(pts
-			(xy 146.05 73.66) (xy 173.99 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "63d73395-9a2b-4d35-9d49-6b204441bc5e")
 	)
 	(wire
 		(pts
@@ -4573,13 +4599,13 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 73.66) (xy 205.74 73.66)
+			(xy 165.1 62.865) (xy 194.31 62.865)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a04abd89-b753-4f31-b2d4-fa2ce3817832")
+		(uuid "9e49f753-dd3f-4c13-b23b-cd5a1e9f9843")
 	)
 	(wire
 		(pts
@@ -4593,13 +4619,13 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 73.66) (xy 182.88 76.2)
+			(xy 165.1 73.66) (xy 146.05 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a3f2a6c8-34bf-4474-8ed7-96f0528a6c68")
+		(uuid "a2a92120-9d3e-4959-ab90-af50b4b56c43")
 	)
 	(wire
 		(pts
@@ -4663,23 +4689,13 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 81.28) (xy 182.88 83.82)
+			(xy 194.31 73.025) (xy 194.31 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b4812b77-ec7a-4f28-adba-5c3ea5c84f02")
-	)
-	(wire
-		(pts
-			(xy 173.99 81.28) (xy 173.99 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b71569aa-994c-4ea6-855b-89baf6723b9c")
+		(uuid "b3fa5c3d-a0ca-49f3-897c-fb990f02d85d")
 	)
 	(wire
 		(pts
@@ -4733,6 +4749,16 @@
 	)
 	(wire
 		(pts
+			(xy 185.42 78.74) (xy 194.31 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2dd60bb-ad92-4b8a-923b-8d06ec3d0fa2")
+	)
+	(wire
+		(pts
 			(xy 106.68 166.37) (xy 107.95 166.37)
 		)
 		(stroke
@@ -4763,6 +4789,26 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 78.74) (xy 175.26 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9b2e828-8860-4bf2-b21e-4a71637044f9")
+	)
+	(wire
+		(pts
+			(xy 217.805 76.2) (xy 230.505 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb601ef6-8f3f-4eb6-b5a6-977095d1849c")
+	)
+	(wire
+		(pts
 			(xy 146.05 53.34) (xy 146.05 59.69)
 		)
 		(stroke
@@ -4773,7 +4819,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 83.82) (xy 203.2 85.09)
+			(xy 214.63 73.025) (xy 214.63 74.295)
 		)
 		(stroke
 			(width 0)
@@ -4833,13 +4879,23 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 83.82) (xy 173.99 87.63)
+			(xy 194.31 78.74) (xy 194.31 85.725)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e69b666f-865a-4822-9ef3-9cdb7f98d6a5")
+		(uuid "e5effdc9-0dd4-4922-bef0-13353d798364")
+	)
+	(wire
+		(pts
+			(xy 165.1 73.66) (xy 165.1 62.865)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed71b970-01d4-4359-90ef-536e5f28a0e8")
 	)
 	(wire
 		(pts
@@ -4860,6 +4916,16 @@
 			(type default)
 		)
 		(uuid "f370208a-03b8-4321-ab0c-37085ba5bd17")
+	)
+	(wire
+		(pts
+			(xy 214.63 95.885) (xy 214.63 97.155)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3b22382-82c5-4aa4-80e0-7a0d0ed86985")
 	)
 	(wire
 		(pts
@@ -4890,6 +4956,16 @@
 			(type default)
 		)
 		(uuid "f786514e-3c34-4d67-8e69-8e1922fa8080")
+	)
+	(wire
+		(pts
+			(xy 217.805 62.865) (xy 214.63 62.865)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7b0b70b-564a-4568-97ef-955b5b013793")
 	)
 	(wire
 		(pts
@@ -5022,7 +5098,7 @@
 		(uuid "f5a26ff5-a002-452e-994e-ffc009e48f06")
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "28F0121-0SR-10:C_Small")
 		(at 78.74 172.72 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5092,8 +5168,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 203.2 85.09 0)
+		(lib_id "28F0121-0SR-10:GND")
+		(at 214.63 74.295 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5102,7 +5178,7 @@
 		(fields_autoplaced yes)
 		(uuid "02718a58-51d4-445a-b461-67cd9a17c786")
 		(property "Reference" "#PWR04"
-			(at 203.2 91.44 0)
+			(at 214.63 80.645 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5111,7 +5187,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 203.2 90.17 0)
+			(at 214.63 79.375 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5119,7 +5195,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 203.2 85.09 0)
+			(at 214.63 74.295 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5128,7 +5204,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 203.2 85.09 0)
+			(at 214.63 74.295 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5137,7 +5213,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 203.2 85.09 0)
+			(at 214.63 74.295 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5158,7 +5234,7 @@
 		)
 	)
 	(symbol
-		(lib_id "dk_Rectangular-Connectors-Headers-Male-Pins:B2B-XH-A_LF__SN_")
+		(lib_id "28F0121-0SR-10:B2B-XH-A_LF__SN_")
 		(at 49.53 133.35 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5318,7 +5394,77 @@
 		)
 	)
 	(symbol
-		(lib_id "Auto_Fuse_Holder:3587TR")
+		(lib_id "28F0121-0SR-10:C_Small")
+		(at 175.26 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0669b84b-b863-4e2f-8de9-29996393b3eb")
+		(property "Reference" "C15"
+			(at 177.8 80.0162 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 177.8 82.5562 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 175.26 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 175.26 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 175.26 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "64a96987-6bff-4978-870f-afeb1eb5865b")
+		)
+		(pin "2"
+			(uuid "473bd236-5e58-4a91-b000-2fa98f88222b")
+		)
+		(instances
+			(project "t41_2_power_amplifier"
+				(path "/2dfc3106-0fe9-4b2c-b32a-a54bf0a73e15"
+					(reference "C15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "28F0121-0SR-10:3587TR")
 		(at 49.53 166.37 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5437,7 +5583,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "28F0121-0SR-10:C_Small")
 		(at 165.1 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5507,7 +5653,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Regulator_Linear:MCP1802x-xx02xOT")
+		(lib_id "28F0121-0SR-10:MCP1802x-xx02xOT")
 		(at 121.92 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5585,7 +5731,72 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "28F0121-0SR-10:GND")
+		(at 185.42 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0dc5302f-fa5c-4452-874f-59ef11450be5")
+		(property "Reference" "#PWR024"
+			(at 185.42 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 189.23 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 185.42 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 185.42 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 185.42 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e1b5e09d-d77a-4261-8e1a-fad096912b09")
+		)
+		(instances
+			(project "t41_2_power_amplifier"
+				(path "/2dfc3106-0fe9-4b2c-b32a-a54bf0a73e15"
+					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "28F0121-0SR-10:GND")
 		(at 107.95 176.53 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5650,7 +5861,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Q_NMOS_GSD")
+		(lib_id "28F0121-0SR-10:Q_NMOS_GSD")
 		(at 143.51 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5723,7 +5934,73 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized_Small_US")
+		(lib_id "28F0121-0SR-10:GND")
+		(at 214.63 97.155 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1c1dddc7-fc25-4675-b6ec-6791d54b0710")
+		(property "Reference" "#PWR022"
+			(at 214.63 103.505 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 214.63 102.235 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 214.63 97.155 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 214.63 97.155 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 214.63 97.155 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2ed3f1a3-76ed-4d48-b0f0-f96bbc63f2f0")
+		)
+		(instances
+			(project "t41_2_power_amplifier"
+				(path "/2dfc3106-0fe9-4b2c-b32a-a54bf0a73e15"
+					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "28F0121-0SR-10:C_Polarized_Small_US")
 		(at 118.11 172.72 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5793,7 +6070,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "28F0121-0SR-10:C_Small")
 		(at 101.6 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5863,7 +6140,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "28F0121-0SR-10:C_Small")
 		(at 134.62 135.89 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5933,7 +6210,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
+		(lib_id "28F0121-0SR-10:MountingHole_Pad")
 		(at 217.17 156.21 0)
 		(unit 1)
 		(exclude_from_sim yes)
@@ -6000,7 +6277,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "28F0121-0SR-10:GND")
 		(at 217.17 161.29 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6066,7 +6343,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "28F0121-0SR-10:GND")
 		(at 121.92 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6131,7 +6408,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small_US")
+		(lib_id "28F0121-0SR-10:R_Small_US")
 		(at 124.46 97.79 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6198,7 +6475,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "28F0121-0SR-10:C_Small")
 		(at 154.94 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6268,7 +6545,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "28F0121-0SR-10:GND")
 		(at 217.17 146.05 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6334,7 +6611,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "28F0121-0SR-10:GND")
 		(at 240.03 146.05 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6400,7 +6677,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Screw_Terminal_01x02")
+		(lib_id "28F0121-0SR-10:Screw_Terminal_01x02")
 		(at 33.02 166.37 0)
 		(mirror y)
 		(unit 1)
@@ -6470,7 +6747,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "28F0121-0SR-10:C_Small")
 		(at 81.28 138.43 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6539,7 +6816,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "28F0121-0SR-10:GND")
 		(at 59.69 177.8 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6604,7 +6881,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "28F0121-0SR-10:GND")
 		(at 90.17 176.53 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6669,7 +6946,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
+		(lib_id "28F0121-0SR-10:MountingHole_Pad")
 		(at 240.03 156.21 0)
 		(unit 1)
 		(exclude_from_sim yes)
@@ -6736,7 +7013,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "28F0121-0SR-10:GND")
 		(at 240.03 161.29 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6802,77 +7079,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 182.88 78.74 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4e62056d-054b-43a7-be79-63b6be306c32")
-		(property "Reference" "C3"
-			(at 185.42 77.4762 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "DNP"
-			(at 185.42 80.0162 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 182.88 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 182.88 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 182.88 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0430f9d9-bbf5-4426-a4eb-ff746116476e")
-		)
-		(pin "2"
-			(uuid "42c60121-2d4b-4cfc-9db3-cc6da6e63b0b")
-		)
-		(instances
-			(project "t41_2_power_amplifier"
-				(path "/2dfc3106-0fe9-4b2c-b32a-a54bf0a73e15"
-					(reference "C3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
+		(lib_id "28F0121-0SR-10:GND")
 		(at 128.27 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6938,7 +7145,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "28F0121-0SR-10:GND")
 		(at 53.34 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7004,7 +7211,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small_US")
+		(lib_id "28F0121-0SR-10:R_Small_US")
 		(at 95.25 138.43 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7071,7 +7278,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "28F0121-0SR-10:GND")
 		(at 154.94 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7136,7 +7343,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
+		(lib_id "28F0121-0SR-10:MountingHole_Pad")
 		(at 217.17 140.97 0)
 		(unit 1)
 		(exclude_from_sim yes)
@@ -7203,7 +7410,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized_Small_US")
+		(lib_id "28F0121-0SR-10:C_Polarized_Small_US")
 		(at 90.17 172.72 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7273,7 +7480,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Transformer_1P_SS")
+		(lib_id "28F0121-0SR-10:Transformer_1P_SS")
 		(at 96.52 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7349,7 +7556,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Q_NMOS_GSD")
+		(lib_id "28F0121-0SR-10:Q_NMOS_GSD")
 		(at 143.51 64.77 0)
 		(mirror x)
 		(unit 1)
@@ -7422,7 +7629,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "28F0121-0SR-10:GND")
 		(at 118.11 176.53 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7487,7 +7694,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "28F0121-0SR-10:C_Small")
 		(at 128.27 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7557,7 +7764,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "28F0121-0SR-10:GND")
 		(at 81.28 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7623,7 +7830,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "28F0121-0SR-10:GND")
 		(at 78.74 176.53 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7688,7 +7895,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "28F0121-0SR-10:GND")
 		(at 101.6 140.97 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7753,7 +7960,72 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "28F0121-0SR-10:GND")
+		(at 175.26 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8f3ab13f-70e9-47da-89cd-4bb54eb71fcc")
+		(property "Reference" "#PWR023"
+			(at 175.26 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 179.07 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 175.26 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 175.26 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3642a07c-659c-435d-ae9a-6bfe1763cdad")
+		)
+		(instances
+			(project "t41_2_power_amplifier"
+				(path "/2dfc3106-0fe9-4b2c-b32a-a54bf0a73e15"
+					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "28F0121-0SR-10:GND")
 		(at 124.46 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7818,7 +8090,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "28F0121-0SR-10:GND")
 		(at 146.05 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7884,7 +8156,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "28F0121-0SR-10:GND")
 		(at 40.64 171.45 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7949,7 +8221,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "28F0121-0SR-10:C_Small")
 		(at 128.27 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8019,7 +8291,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "28F0121-0SR-10:GND")
 		(at 77.47 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8085,7 +8357,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "28F0121-0SR-10:GND")
 		(at 165.1 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8150,8 +8422,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 210.82 80.01 0)
+		(lib_id "28F0121-0SR-10:GND")
+		(at 235.585 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8160,7 +8432,7 @@
 		(fields_autoplaced yes)
 		(uuid "a2a300de-7d6d-4397-ae3e-0c511fd88425")
 		(property "Reference" "#PWR05"
-			(at 210.82 86.36 0)
+			(at 235.585 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8169,7 +8441,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 210.82 85.09 0)
+			(at 235.585 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8177,7 +8449,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 210.82 80.01 0)
+			(at 235.585 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8186,7 +8458,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 210.82 80.01 0)
+			(at 235.585 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8195,7 +8467,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 210.82 80.01 0)
+			(at 235.585 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8216,7 +8488,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Potentiometer_US")
+		(lib_id "28F0121-0SR-10:R_Potentiometer_US")
 		(at 114.3 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8288,7 +8560,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "28F0121-0SR-10:C_Small")
 		(at 115.57 68.58 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8356,7 +8628,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "28F0121-0SR-10:C_Small")
 		(at 115.57 88.9 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8424,7 +8696,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:Z3SMCxxx")
+		(lib_id "28F0121-0SR-10:Z3SMCxxx")
 		(at 59.69 172.72 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8494,7 +8766,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "28F0121-0SR-10:GND")
 		(at 114.3 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8560,7 +8832,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "28F0121-0SR-10:GND")
 		(at 86.36 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8626,7 +8898,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small_US")
+		(lib_id "28F0121-0SR-10:R_Small_US")
 		(at 138.43 161.29 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8693,7 +8965,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "28F0121-0SR-10:GND")
 		(at 95.25 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8758,7 +9030,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "28F0121-0SR-10:GND")
 		(at 142.24 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8824,7 +9096,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Potentiometer_US")
+		(lib_id "28F0121-0SR-10:R_Potentiometer_US")
 		(at 113.03 48.26 90)
 		(mirror x)
 		(unit 1)
@@ -8896,7 +9168,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small_US")
+		(lib_id "28F0121-0SR-10:R_Small_US")
 		(at 132.08 59.69 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8963,8 +9235,8 @@
 		)
 	)
 	(symbol
-		(lib_id "dk_Coaxial-Connectors-RF:5-1814832-1")
-		(at 210.82 73.66 0)
+		(lib_id "28F0121-0SR-10:5-1814832-1")
+		(at 235.585 76.2 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8973,7 +9245,7 @@
 		(dnp no)
 		(uuid "c2426171-5f41-41db-8229-d307f2f41dbd")
 		(property "Reference" "J1"
-			(at 210.8201 67.31 0)
+			(at 235.5851 69.85 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -8981,7 +9253,7 @@
 			)
 		)
 		(property "Value" "5-1814832-1"
-			(at 210.8201 69.85 0)
+			(at 235.5851 72.39 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -8989,7 +9261,7 @@
 			)
 		)
 		(property "Footprint" "digikey-footprints:RF_SMA_Vertical_5-1814832-1"
-			(at 205.74 68.58 0)
+			(at 230.505 71.12 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -8999,7 +9271,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1814832&DocType=Customer+Drawing&DocLang=English"
-			(at 205.74 66.04 0)
+			(at 230.505 68.58 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -9009,7 +9281,7 @@
 			)
 		)
 		(property "Description" "CONN SMA JACK STR 50 OHM PCB"
-			(at 210.82 73.66 0)
+			(at 235.585 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9018,7 +9290,7 @@
 			)
 		)
 		(property "Digi-Key_PN" "A97594-ND"
-			(at 205.74 63.5 0)
+			(at 230.505 66.04 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -9028,7 +9300,7 @@
 			)
 		)
 		(property "MPN" "5-1814832-1"
-			(at 205.74 60.96 0)
+			(at 230.505 63.5 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -9038,7 +9310,7 @@
 			)
 		)
 		(property "Category" "Connectors, Interconnects"
-			(at 205.74 58.42 0)
+			(at 230.505 60.96 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -9048,7 +9320,7 @@
 			)
 		)
 		(property "Family" "Coaxial Connectors (RF)"
-			(at 205.74 55.88 0)
+			(at 230.505 58.42 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -9058,7 +9330,7 @@
 			)
 		)
 		(property "DK_Datasheet_Link" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1814832&DocType=Customer+Drawing&DocLang=English"
-			(at 205.74 53.34 0)
+			(at 230.505 55.88 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -9068,7 +9340,7 @@
 			)
 		)
 		(property "DK_Detail_Page" "/product-detail/en/te-connectivity-amp-connectors/5-1814832-1/A97594-ND/1755982"
-			(at 205.74 50.8 0)
+			(at 230.505 53.34 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -9078,7 +9350,7 @@
 			)
 		)
 		(property "Description_1" "CONN SMA JACK STR 50 OHM PCB"
-			(at 205.74 48.26 0)
+			(at 230.505 50.8 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -9088,7 +9360,7 @@
 			)
 		)
 		(property "Manufacturer" "TE Connectivity AMP Connectors"
-			(at 205.74 45.72 0)
+			(at 230.505 48.26 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -9098,7 +9370,7 @@
 			)
 		)
 		(property "Status" "Active"
-			(at 205.74 43.18 0)
+			(at 230.505 45.72 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -9123,16 +9395,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 173.99 78.74 0)
+		(lib_id "28F0121-0SR-10:C_Small")
+		(at 185.42 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "c9935546-da49-4887-88b0-1748a110fdcc")
-		(property "Reference" "C2"
-			(at 176.53 77.4762 0)
+		(fields_autoplaced yes)
+		(uuid "d00a6957-13f4-4692-b4bf-71bafd1f7039")
+		(property "Reference" "C16"
+			(at 187.96 80.0162 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9140,8 +9413,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "120pF"
-			(at 175.26 80.01 0)
+		(property "Value" "0.1uF"
+			(at 187.96 82.5562 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9150,7 +9423,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 173.99 78.74 0)
+			(at 185.42 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9159,7 +9432,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 173.99 78.74 0)
+			(at 185.42 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9168,7 +9441,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 173.99 78.74 0)
+			(at 185.42 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9177,23 +9450,23 @@
 			)
 		)
 		(pin "1"
-			(uuid "38369b5b-1a7a-45eb-9810-05f4ebfb73fa")
+			(uuid "15666fe4-2c0c-4b7d-bae8-54420547345c")
 		)
 		(pin "2"
-			(uuid "95213206-1bef-46bd-a346-572aa30e8375")
+			(uuid "1bff6d62-abf9-4493-8982-676089dbfc1f")
 		)
 		(instances
 			(project "t41_2_power_amplifier"
 				(path "/2dfc3106-0fe9-4b2c-b32a-a54bf0a73e15"
-					(reference "C2")
+					(reference "C16")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:Transformer_1P_1S")
-		(at 193.04 78.74 0)
+		(lib_id "28F0121-0SR-10:Transformer_1P_1S")
+		(at 204.47 67.945 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9202,7 +9475,7 @@
 		(fields_autoplaced yes)
 		(uuid "d011a06b-aea7-4408-b1ba-64783760b6b1")
 		(property "Reference" "T2"
-			(at 193.0527 68.58 0)
+			(at 204.4827 57.785 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9210,15 +9483,15 @@
 			)
 		)
 		(property "Value" "Transformer_1P_1S"
-			(at 193.0527 71.12 0)
+			(at 204.4827 60.325 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Binocular_Core:BN-43-3312"
-			(at 193.04 78.74 0)
+		(property "Footprint" "Binocular_Core:BN-43-202"
+			(at 204.47 67.945 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9227,7 +9500,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 193.04 78.74 0)
+			(at 204.47 67.945 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9236,7 +9509,7 @@
 			)
 		)
 		(property "Description" "Transformer, single primary, single secondary"
-			(at 193.04 78.74 0)
+			(at 204.47 67.945 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9266,7 +9539,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
+		(lib_id "28F0121-0SR-10:MountingHole_Pad")
 		(at 240.03 140.97 0)
 		(unit 1)
 		(exclude_from_sim yes)
@@ -9441,7 +9714,7 @@
 		)
 	)
 	(symbol
-		(lib_id "dk_Coaxial-Connectors-RF:5-1814832-1")
+		(lib_id "28F0121-0SR-10:5-1814832-1")
 		(at 77.47 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9600,7 +9873,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small_US")
+		(lib_id "28F0121-0SR-10:R_Small_US")
 		(at 134.62 92.71 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9776,7 +10049,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small_US")
+		(lib_id "28F0121-0SR-10:R_Small_US")
 		(at 134.62 64.77 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9843,7 +10116,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "28F0121-0SR-10:GND")
 		(at 134.62 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9909,7 +10182,7 @@
 		)
 	)
 	(symbol
-		(lib_id "InductorTapped:InductorTapped")
+		(lib_id "28F0121-0SR-10:InductorTapped")
 		(at 143.51 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9979,7 +10252,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small_US")
+		(lib_id "28F0121-0SR-10:R_Small_US")
 		(at 132.08 97.79 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10046,7 +10319,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:FerriteBead_Small")
+		(lib_id "28F0121-0SR-10:FerriteBead_Small")
 		(at 67.31 133.35 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10114,7 +10387,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "28F0121-0SR-10:GND")
 		(at 110.49 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10179,7 +10452,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small_US")
+		(lib_id "28F0121-0SR-10:R_Small_US")
 		(at 124.46 59.69 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10240,6 +10513,80 @@
 			(project "t41_2_power_amplifier"
 				(path "/2dfc3106-0fe9-4b2c-b32a-a54bf0a73e15"
 					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "28F0121-0SR-10:Transformer_1P_1S")
+		(at 204.47 90.805 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f313d798-c251-43f3-8bfd-16b67277ca4f")
+		(property "Reference" "T3"
+			(at 204.4827 80.645 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Transformer_1P_1S"
+			(at 204.4827 83.185 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Binocular_Core:BN-43-202"
+			(at 204.47 90.805 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 204.47 90.805 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Transformer, single primary, single secondary"
+			(at 204.47 90.805 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "51cb44fc-c388-4384-b439-5d2f30da3c00")
+		)
+		(pin "2"
+			(uuid "815aaff7-a672-4f7b-88e6-0c763cb5fd58")
+		)
+		(pin "1"
+			(uuid "484947b3-d921-432c-ba23-e508bf2b3a57")
+		)
+		(pin "3"
+			(uuid "caab2899-b7ba-4209-9b47-98f99d7d67b3")
+		)
+		(instances
+			(project "t41_2_power_amplifier"
+				(path "/2dfc3106-0fe9-4b2c-b32a-a54bf0a73e15"
+					(reference "T3")
 					(unit 1)
 				)
 			)
@@ -10355,7 +10702,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "28F0121-0SR-10:C_Small")
 		(at 107.95 172.72 0)
 		(unit 1)
 		(exclude_from_sim no)

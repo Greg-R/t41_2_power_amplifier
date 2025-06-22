@@ -6,8 +6,8 @@
 	(paper "USLetter")
 	(title_block
 		(title "T41-2 RF Power Amplifier")
-		(date "2025-01-19")
-		(rev "1.5")
+		(date "2025-06-22")
+		(rev "1.7")
 	)
 	(lib_symbols
 		(symbol "28F0121-0SR-10:28F0121-0SR-10"
@@ -1585,183 +1585,6 @@
 						)
 					)
 					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "28F0121-0SR-10:MCP1802x-xx02xOT"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -6.35 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "MCP1802x-xx02xOT"
-				(at 0 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
-				(at -6.35 8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/22053C.pdf"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "150mA, Tiny CMOS LDO With Shutdown, Fixed Voltage, SOT-23-5"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "LDO Linear Voltage Regulator"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOT?23*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "MCP1802x-xx02xOT_0_1"
-				(rectangle
-					(start -7.62 5.08)
-					(end 7.62 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "MCP1802x-xx02xOT_1_1"
-				(pin power_in line
-					(at -10.16 2.54 0)
-					(length 2.54)
-					(name "VIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -10.16 0 0)
-					(length 2.54)
-					(name "~{SHDN}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 7.62 0 180)
-					(length 2.54)
-					(hide yes)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 10.16 2.54 180)
-					(length 2.54)
-					(name "VOUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3802,6 +3625,183 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Regulator_Linear:MCP1804x-A002xOT"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -6.35 5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MCP1804x-A002xOT"
+				(at 0 5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/20002200D.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "150mA, 28V LDO Regulator With Shutdown, 10.0V Fixed Output, SOT-23-5"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "linear regulator ldo fixed positive"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MCP1804x-A002xOT_0_1"
+				(rectangle
+					(start -7.62 -5.08)
+					(end 7.62 4.445)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "MCP1804x-A002xOT_1_1"
+				(pin power_in line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 0 0)
+					(length 2.54)
+					(name "~{SHDN}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 7.62 0 180)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "VOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(text "OUTPUT"
 		(exclude_from_sim no)
@@ -3839,7 +3839,7 @@
 	)
 	(text "SHUTDOWN THERMOSTAT"
 		(exclude_from_sim no)
-		(at 60.325 103.505 0)
+		(at 66.675 102.235 0)
 		(effects
 			(font
 				(size 2 2)
@@ -3947,7 +3947,7 @@
 		)
 		(uuid "9d35ce5e-fdff-48a6-bf6b-d6a3efee5e5b")
 	)
-	(text "8 VOLT BIAS REGULATOR"
+	(text "10 VOLT BIAS REGULATOR"
 		(exclude_from_sim no)
 		(at 121.92 120.65 0)
 		(effects
@@ -3969,9 +3969,9 @@
 		)
 		(uuid "b8f05b69-ecb0-4d8d-9a0e-0fcd4b244fed")
 	)
-	(text "SET 10 DEGREES"
+	(text "SET 2 DEGREES"
 		(exclude_from_sim no)
-		(at 92.71 116.84 0)
+		(at 92.075 116.84 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4264,6 +4264,16 @@
 			(type default)
 		)
 		(uuid "0e744557-3bea-4fec-8622-ce4f90c1441d")
+	)
+	(wire
+		(pts
+			(xy 76.2 113.665) (xy 78.105 113.665)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10c49ff5-b769-470f-bda5-bac172bec991")
 	)
 	(wire
 		(pts
@@ -4687,6 +4697,16 @@
 	)
 	(wire
 		(pts
+			(xy 30.48 113.665) (xy 29.21 113.665)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52d257c6-e347-4120-bdd7-24af9e845d9f")
+	)
+	(wire
+		(pts
 			(xy 166.37 167.005) (xy 168.91 167.005)
 		)
 		(stroke
@@ -4757,16 +4777,6 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 113.665) (xy 81.28 113.665)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5f10f741-a9db-4e40-b2c0-92a35c25b62a")
-	)
-	(wire
-		(pts
 			(xy 124.46 92.71) (xy 132.08 92.71)
 		)
 		(stroke
@@ -4814,6 +4824,16 @@
 			(type default)
 		)
 		(uuid "6b9354b1-bd3e-462c-90a2-021b1614ac29")
+	)
+	(wire
+		(pts
+			(xy 81.28 116.205) (xy 81.28 118.745)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6eab04fa-39fd-41c8-b28c-ba260a24ccb1")
 	)
 	(wire
 		(pts
@@ -4927,16 +4947,6 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 113.665) (xy 81.28 116.205)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "89eb46a9-79a7-4b0f-8db0-d43b50867124")
-	)
-	(wire
-		(pts
 			(xy 76.2 116.205) (xy 81.28 116.205)
 		)
 		(stroke
@@ -5037,6 +5047,16 @@
 	)
 	(wire
 		(pts
+			(xy 29.21 113.665) (xy 29.21 114.935)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ef53815-ebfc-4d21-ad7e-bb8391c30003")
+	)
+	(wire
+		(pts
 			(xy 124.46 92.71) (xy 124.46 95.25)
 		)
 		(stroke
@@ -5084,6 +5104,16 @@
 			(type default)
 		)
 		(uuid "a954446c-4b9f-4a9b-8182-e6a95bb26a75")
+	)
+	(wire
+		(pts
+			(xy 87.63 127) (xy 101.6 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9ce6cb1-8ab7-43ad-950c-423af243a494")
 	)
 	(wire
 		(pts
@@ -5217,16 +5247,6 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 113.665) (xy 35.56 114.935)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c426e6b6-941e-42c7-8f5f-35032e5f4d6f")
-	)
-	(wire
-		(pts
 			(xy 124.46 57.15) (xy 124.46 55.88)
 		)
 		(stroke
@@ -5344,16 +5364,6 @@
 			(type default)
 		)
 		(uuid "e1099a3f-a4e7-4ca8-b53f-2f1d5749f723")
-	)
-	(wire
-		(pts
-			(xy 87.63 127) (xy 101.6 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e14ac316-daef-4f7a-ae50-9a89c9728785")
 	)
 	(wire
 		(pts
@@ -5582,7 +5592,7 @@
 		(uuid "da7ef5f7-bc72-410f-aa96-6635d50d0895")
 	)
 	(label "TXRX"
-		(at 76.2 113.665 0)
+		(at 78.105 113.665 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6156,84 +6166,6 @@
 		)
 	)
 	(symbol
-		(lib_id "28F0121-0SR-10:MCP1802x-xx02xOT")
-		(at 121.92 133.35 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0c2559d3-f9ca-4c0e-a90c-f4e7f1d3e238")
-		(property "Reference" "U1"
-			(at 121.92 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MCP1802x-xx02xOT"
-			(at 121.92 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
-			(at 115.57 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/22053C.pdf"
-			(at 121.92 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "150mA, Tiny CMOS LDO With Shutdown, Fixed Voltage, SOT-23-5"
-			(at 121.92 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "809d552b-4aee-4187-a0af-05fb503ce632")
-		)
-		(pin "2"
-			(uuid "d63da08f-5709-4efe-867e-1ae4551295b7")
-		)
-		(pin "4"
-			(uuid "ceca2d88-a2ce-4eff-8886-868091e331ab")
-		)
-		(pin "3"
-			(uuid "d702f118-945e-4f15-bf08-8f64676b1e06")
-		)
-		(pin "1"
-			(uuid "20c5cd59-2569-4727-8686-42aa948cf04f")
-		)
-		(instances
-			(project ""
-				(path "/2dfc3106-0fe9-4b2c-b32a-a54bf0a73e15"
-					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "28F0121-0SR-10:GND")
 		(at 180.975 79.375 0)
 		(unit 1)
@@ -6293,6 +6225,83 @@
 			(project "t41_2_power_amplifier"
 				(path "/2dfc3106-0fe9-4b2c-b32a-a54bf0a73e15"
 					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regulator_Linear:MCP1804x-A002xOT")
+		(at 121.92 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0fdc8c43-ce17-4bc4-bef2-0b087b15b73d")
+		(property "Reference" "U3"
+			(at 121.92 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MCP1804x-A002xOT"
+			(at 121.92 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(at 121.92 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/20002200D.pdf"
+			(at 121.92 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "150mA, 28V LDO Regulator With Shutdown, 10.0V Fixed Output, SOT-23-5"
+			(at 121.92 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "dff227e9-2818-4f74-8a7e-e2b286c8c70d")
+		)
+		(pin "4"
+			(uuid "9662ba70-a280-4b5e-a6d6-6ce6de794d10")
+		)
+		(pin "2"
+			(uuid "261cd047-ac7d-4fef-b510-4254c925997b")
+		)
+		(pin "1"
+			(uuid "8ee24d36-ddcc-4294-b105-24a279f6b07d")
+		)
+		(pin "3"
+			(uuid "cf17c19d-b10f-4b02-96e5-7ab1f7607106")
+		)
+		(instances
+			(project ""
+				(path "/2dfc3106-0fe9-4b2c-b32a-a54bf0a73e15"
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -6462,7 +6471,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOT-23-5_MC_MCH"
+		(property "Footprint" "footprints:SOT-23-5_MC_MCH"
 			(at 44.45 113.665 0)
 			(effects
 				(font
@@ -6576,6 +6585,73 @@
 			(project "t41_2_power_amplifier"
 				(path "/2dfc3106-0fe9-4b2c-b32a-a54bf0a73e15"
 					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "28F0121-0SR-10:R_Small_US")
+		(at 33.02 113.665 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1f7ba1f4-100b-4ee2-a933-d9e96de465f9")
+		(property "Reference" "R10"
+			(at 33.02 108.585 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2.2k"
+			(at 33.02 111.125 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 33.02 113.665 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 33.02 113.665 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 33.02 113.665 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "91d123c6-fc10-457b-b177-541dc2903749")
+		)
+		(pin "1"
+			(uuid "5cc3b853-7dcb-46ff-80f0-8fc3390cea59")
+		)
+		(instances
+			(project "t41_2_power_amplifier"
+				(path "/2dfc3106-0fe9-4b2c-b32a-a54bf0a73e15"
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -8546,6 +8622,72 @@
 	)
 	(symbol
 		(lib_id "28F0121-0SR-10:GND")
+		(at 81.28 118.745 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6ffae6be-dcf9-4ee0-ab98-f7d550665ccf")
+		(property "Reference" "#PWR031"
+			(at 81.28 125.095 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 81.28 123.825 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 81.28 118.745 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 118.745 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 81.28 118.745 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "32ad6f2b-3dcf-4cd8-8113-f5a1bd0f6738")
+		)
+		(instances
+			(project "t41_2_power_amplifier"
+				(path "/2dfc3106-0fe9-4b2c-b32a-a54bf0a73e15"
+					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "28F0121-0SR-10:GND")
 		(at 138.43 170.815 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8611,7 +8753,7 @@
 	)
 	(symbol
 		(lib_id "28F0121-0SR-10:GND")
-		(at 35.56 114.935 0)
+		(at 29.21 114.935 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8620,7 +8762,7 @@
 		(fields_autoplaced yes)
 		(uuid "7d498e84-d7aa-4768-9b2f-1dc2ca4691d3")
 		(property "Reference" "#PWR025"
-			(at 35.56 121.285 0)
+			(at 29.21 121.285 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8629,7 +8771,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 35.56 120.015 0)
+			(at 29.21 120.015 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8637,7 +8779,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 35.56 114.935 0)
+			(at 29.21 114.935 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8646,7 +8788,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 35.56 114.935 0)
+			(at 29.21 114.935 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8655,7 +8797,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 35.56 114.935 0)
+			(at 29.21 114.935 0)
 			(effects
 				(font
 					(size 1.27 1.27)

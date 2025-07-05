@@ -1,10 +1,10 @@
-(footprint "BN-43-7051"
+(footprint "BN-43-3312"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 0 -13.5 0)
+		(at 0 -9 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "b4331364-3ff1-445d-a352-9d6a27125d9e")
@@ -15,8 +15,8 @@
 			)
 		)
 	)
-	(property "Value" "BN-43-7051"
-		(at 0 -12 0)
+	(property "Value" "BN-43-3312"
+		(at 0 -7.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "2ecefbd3-4a85-49aa-87c9-5d6fb8b647ec")
@@ -28,7 +28,7 @@
 		)
 	)
 	(property "Footprint" ""
-		(at 0 -13 0)
+		(at 0 -8.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -41,7 +41,7 @@
 		)
 	)
 	(property "Datasheet" ""
-		(at 0 -13 0)
+		(at 0 -8.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -54,7 +54,7 @@
 		)
 	)
 	(property "Description" ""
-		(at 0 -13 0)
+		(at 0 -8.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -68,8 +68,8 @@
 	)
 	(attr through_hole)
 	(fp_rect
-		(start -15 -15)
-		(end 15 15)
+		(start -13 -10)
+		(end 13 10)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -79,8 +79,8 @@
 		(uuid "311e8fbe-07e4-4af8-afb7-7c89a5f04b7f")
 	)
 	(fp_rect
-		(start -15 -15)
-		(end 15 15)
+		(start -13 -10)
+		(end 13 10)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -90,7 +90,7 @@
 		(uuid "e9e2906d-6e92-4db8-99c8-def17072f28d")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 -10.5 0)
+		(at 0 -6 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "a44bb3fe-dbdd-4fd5-b43a-83143a21f91b")
@@ -102,7 +102,7 @@
 		)
 	)
 	(pad "1" thru_hole circle
-		(at -19 -7)
+		(at -17 -5)
 		(size 2 2)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
@@ -110,7 +110,7 @@
 		(uuid "92ef1b89-2377-45c4-9974-99640a09f809")
 	)
 	(pad "2" thru_hole circle
-		(at -19 7)
+		(at -17 5)
 		(size 2 2)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
@@ -118,7 +118,7 @@
 		(uuid "ecf83968-94fb-4374-8896-4e3e2da59e02")
 	)
 	(pad "3" thru_hole circle
-		(at 19 7)
+		(at 17 5)
 		(size 2 2)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
@@ -126,7 +126,7 @@
 		(uuid "ff3887cc-ab42-4355-a635-af3b13f55cd1")
 	)
 	(pad "4" thru_hole circle
-		(at 19 -7)
+		(at 17 -5)
 		(size 2 2)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")

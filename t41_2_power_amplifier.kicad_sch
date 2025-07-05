@@ -3928,7 +3928,7 @@
 	)
 	(text "RD16HHF1 TO-220"
 		(exclude_from_sim no)
-		(at 163.195 43.815 0)
+		(at 151.13 49.53 0)
 		(effects
 			(font
 				(size 2 2)

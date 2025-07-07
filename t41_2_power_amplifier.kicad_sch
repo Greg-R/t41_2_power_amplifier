@@ -3970,6 +3970,16 @@
 		)
 		(uuid "4c64a0ef-8290-4984-afda-148259f9e545")
 	)
+	(text "Note: C10 and C9 electrolytic capacitors are\nused for higher voltage supply tests.  In this\ncase, delete C2, C3, C12, C13."
+		(exclude_from_sim no)
+		(at 111.76 182.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5935c1c5-e6c1-4b7b-a2a0-ec6c146abee5")
+	)
 	(text "TUNING"
 		(exclude_from_sim no)
 		(at 187.96 81.28 0)

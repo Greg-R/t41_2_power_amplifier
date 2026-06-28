@@ -4350,7 +4350,7 @@
 		)
 		(uuid "69b9f18d-693e-4146-b1c8-46690f162515")
 	)
-	(text "+12 VOLTS IN"
+	(text "+13.4 VOLTS IN"
 		(exclude_from_sim no)
 		(at 30.48 153.67 0)
 		(effects
